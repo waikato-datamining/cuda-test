@@ -1,6 +1,7 @@
 # GPU Test
 
-Docker image for testing the GPU.
+Simple CUDA-based image for testing the GPU connectivity by 
+running `nvidia-smi` in the container.
 
 Uses CUDA 12.2.2.
 
