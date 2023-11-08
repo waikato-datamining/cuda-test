@@ -18,27 +18,17 @@ Uses CUDA 11.7.1.
 
   ```bash
   docker run --rm \
-    -u $(id -u):$(id -g) -e USER=$USER \
     --gpus=all \
-    -v `pwd`:/workspace \
     -it public.aml-repo.cms.waikato.ac.nz:443/tools/gpu-test:cuda11.7.1
   ```
 
 ### Docker hub
-  
-* Create the following directories:
-
-  ```bash
-  mkdir cache triton
-  ```
 
 * Launch docker container
 
   ```bash
   docker run --rm \
-    -u $(id -u):$(id -g) -e USER=$USER \
     --gpus=all \
-    -v `pwd`:/workspace \
     -it waikatodatamining/gpu-test:cuda11.7.1
   ```
 
