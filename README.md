@@ -6,3 +6,4 @@ Available images:
 
 * [CUDA 12.2.2](cuda12.2.2)
 * [CUDA 11.7.1](cuda11.7.1)
+* [CUDA 11.1.1](cuda11.1.1)
